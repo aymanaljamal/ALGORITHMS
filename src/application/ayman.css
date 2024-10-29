@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* لون خلفية فاتح */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #333; /* لون نص داكن */
+}
+
+.text-area {
+    min-height: 100px;
+    font-size: 14px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff; /* خلفية بيضاء */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s; 
+}
+
+.text-area:focus {
+    border-color: #4CAF50; /* تغيير لون الحدود عند التركيز */
+    outline: none; 
+}
+
+.button {
+    background-color: #007BFF; /* أزرق فاتح */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.button:hover {
+    background-color: #0056b3; /* أزرق أغمق عند التحويم */
+    transform: translateY(-2px); 
+}
+
+.hbox {
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.container {
+    max-width: 600px; 
+    margin: auto; 
+    padding: 20px; 
+    background-color: #ffffff; /* خلفية بيضاء للحاوية */
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+/* أضف هذه الفقرة لتحسين المظهر العام */
+header {
+    background: linear-gradient(135deg, #4CAF50, #8BC34A); /* تدرج لوني أخضر */
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0; /* زوايا دائرية في الأعلى */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* لون خلفية أزرق */
+    color: white;
+    border-radius: 0 0 10px 10px; /* زوايا دائرية في الأسفل */
+}
